@@ -1,0 +1,72 @@
+\documentclass[letter,10pt]{article}
+\RequirePackage{fancyhdr}
+
+\usepackage{resume_package}
+
+\begin{document}
+
+%====================
+% HEADING
+%====================
+\begin{center}
+    {\Huge \scshape Your Name} \\ \vspace{1pt}
+    {\Large Ph.D. | Researcher} \\ \vspace{1pt}
+    \small \href{tel:+82-10-0000-000}{ \raisebox{-0.1\height}\faPhone\ \underline{+82-10-0000-000} ~} \href{mailto:sudo@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{sudo@gmail.com}} ~ 
+    \href{https://www.gmujtaba.com/}{\raisebox{-0.2\height}\Mundus\  \underline{gmujtaba.com}} ~ 
+    \href{https://www.linkedin.com/in/iamgmujtaba}{\raisebox{-0.2\height}\faLinkedin\ \underline{iamgmujtaba}} ~
+    \href{https://github.com/iamgmujtaba}{\raisebox{-0.2\height}\faGithub\ \underline{iamgmujtaba}} ~
+    \vspace{-8pt}
+\end{center}
+
+\vspace*{7pt}
+
+%----------HEADING----------
+
+
+\section{Professional Summary}
+\input{sections/summary}
+
+\thispagestyle{empty}
+
+\section{Professional Experience}
+\input{sections/experience}
+
+\section{Education}
+\input{sections/education}
+
+\section{Publications}
+\input{sections/publications}
+
+\section{Selected Projects}
+\input{sections/projects}
+
+\section{Skills}
+\input{sections/skills}
+
+\section{Award and Achievements}
+\input{sections/awards}
+
+\section{Academic Activities}
+\input{sections/activities}
+
+% \newpage
+
+\section{References}
+\input{sections/references}
+
+% \vspace*{7pt}
+
+% \section{}
+
+
+\vspace*{\fill}
+% \begin{flushright}
+%     Last updated: \today.
+% \end{flushright}
+
+\begin{flushleft}
+    Last updated: \today.
+\end{flushleft}
+
+
+\end{document}
